@@ -15,3 +15,16 @@ int main(int argc , const char * argv[]){
     std::cout<<"Hello World!";
     return 0;
 }
+
+void nothing(){
+    puts("Hello Bitch!");
+}
+
+char iamachar(){
+    return 'n';
+}
+
+// () => parenthesis
+// [] => brackets/square brackets
+// {} => braces/curly braces
+
