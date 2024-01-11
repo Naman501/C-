@@ -10,6 +10,7 @@
 // Call BY Value
 
 #include<iostream>
+#include "adder.h"
 using namespace std;
 
 // void lifeUp(int *score){
@@ -20,12 +21,7 @@ void lifeUp(int &score){
     ++(score);
 }
 
-int addme(int a, int b){
-    return a+b;
-}
-int addme(float x, float y){
-    return x+y;
-}
+
 int main(){
 
 int life=3;
