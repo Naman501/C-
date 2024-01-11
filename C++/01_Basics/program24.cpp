@@ -10,7 +10,8 @@
 // Call BY Value
 
 #include<iostream>
-#include "adder.h"
+// #include "adder.h"
+
 using namespace std;
 
 // void lifeUp(int *score){
@@ -19,6 +20,11 @@ using namespace std;
 
 void lifeUp(int &score){
     ++(score);
+}
+
+template<typename T>
+int addme(T a , T b){
+    return a+b;
 }
 
 
