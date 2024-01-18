@@ -42,5 +42,8 @@ Naman.classMessage();
 const User rock;
 cout<<rock.getSecret()<<endl;
 
+User peter = sam;
+cout<<peter.getSecret()<<endl;
+
     return 0;
 }
